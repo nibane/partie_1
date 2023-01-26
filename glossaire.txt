@@ -1,0 +1,9 @@
+strrev($arg)
+strtolower($arg)
+str_replace("remplacer","remplacent","zone d'aplication)
+str_count_word($arg)
+strlen($arg)
+round(chiffre décimale,nb de décimale apres la virgule)
+alt + z : pas de scrolling vertical
+mld lcd
+intdiv(X,Y) , dans X combient de fois il y a Y
