@@ -6,8 +6,15 @@
 
 <?php
 
-$date_naissance = 17-01-1985;
-$date_actuel = 21-05-2018;
-$diff = date_diff($date_naissance,$date_actuel);
+// $date_naissance = 17-01-1985;
+// $date_actuel = 21-05-2018;
+// $diff = date_diff($date_naissance,$date_actuel);
+
+$date1 = date_create('1985/01/17');
+$date2 = date_create('2018/05/21');
+$diff = date_diff($date1 , $date2);
+echo "age de la personne : " . $diff->format('%y ans %m mois %d jours');
+
+
 
 ?>
