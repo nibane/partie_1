@@ -7,4 +7,3 @@ round(chiffre décimale,nb de décimale apres la virgule)
 alt + z : pas de scrolling vertical
 mld lcd
 intdiv(X,Y) , dans X combient de fois il y a Y
-echo "afficherqqchose"
