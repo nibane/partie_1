@@ -9,7 +9,7 @@
 class Personne{
     public $name;
     public $prenom;
-    private $naissance;
+    public $naissance;
 
     
     //propriété_______________________________
@@ -52,8 +52,8 @@ class Personne{
     
 }
 
-$p1 = new personne('DUPONT','Michel','1980-02-19');
-$p2 = new personne('DUCHEMIN','Alice','1985-01-17');
+$p1 = new Personne('DUPONT','Michel','1980-02-19');
+$p2 = new Personne('DUCHEMIN','Alice','1985-01-17');
 
 // $p1 = new Personne();
 // $p1->set_name('DUPONT');
